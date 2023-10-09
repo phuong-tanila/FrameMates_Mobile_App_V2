@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DemoFaceBook" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <style name="Theme.DemoFaceBook" parent="Base.Theme.DemoFaceBook" />
+
+    <style name="Base.Theme.Layout_Login" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.Layout_Login" parent="Base.Theme.Layout_Login" />
+    <style name="Theme.DemoFaceBook.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.DemoFaceBook.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.DemoFaceBook.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
